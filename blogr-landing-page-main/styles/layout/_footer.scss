@@ -1,0 +1,79 @@
+footer {
+    opacity: 0;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-family: "Overpass", sans-serif;
+    margin-top: 18rem;
+    height: 325px;
+    width: 100%;
+    background-color: $gradien-dark-gray-blue;
+    padding: 3rem 5rem;
+    border-top-right-radius: 100px;
+    color: white;
+    img {
+        height:50px;
+        width: auto;
+    }
+    .column {
+        display:flex;
+        flex-direction: column; 
+        a {
+            position: relative;
+            text-decoration: none;
+            color: $grayish-blue;
+            font-weight: 300;
+            padding: 0.5rem 0;
+        }
+    
+        a span::after {
+            content: "";
+            display: block;
+            transform: scale(0);
+            border-bottom: solid 2px white;
+            transition: transform 250ms ease-in-out;
+        }
+    
+        a span:hover::after {
+            transform: scale(1);
+        }
+
+        span {
+            display: inline-block;
+        }
+    }
+
+    h4 {
+        font-weight: 700;
+        padding-bottom: 2rem;
+        padding-top: 10px;
+    }
+
+
+}
+
+@media (max-width: 1200px) {
+    footer {
+        height: 740px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin:0;
+        img {
+            padding-top: 1rem;
+        }
+
+        .column {
+            margin: 0 auto;
+            text-align: center;
+            width: 150px;
+            a {
+                padding: 0.25rem 0;
+            }
+            h4 {
+                padding-bottom: 1rem;
+            }
+        }
+    }
+}
