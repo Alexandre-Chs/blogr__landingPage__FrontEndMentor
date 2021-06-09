@@ -168,6 +168,9 @@
     background-color: $white;
     border-radius: 5px;
     animation: apparition .3s; 
+    &.flex {
+        display: flex;
+    }
     a {
         text-decoration: none;
         font-weight: 500;
