@@ -134,10 +134,13 @@ html {
 }
 
 body {
-  overflow-x: hidden;
   font-family: 'Ubuntu', sans-serif;
   min-height: 100vh;
   color: white;
+}
+
+body .wrap_device {
+  overflow-x: hidden;
 }
 
 h1 {
@@ -595,6 +598,12 @@ h1 {
   }
   .top__website .nav__mobile .hamburger .bar.transparent {
     background-color: transparent;
+  }
+}
+
+@media (max-width: 550px) {
+  header .wrapper__header h1 {
+    font-size: 1.8em;
   }
 }
 

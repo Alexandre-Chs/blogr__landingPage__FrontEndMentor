@@ -1,4 +1,4 @@
-// Import 
+// IMPORT FONT STYLE
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
 
@@ -9,10 +9,13 @@ html {
 }
 
 body {
-    overflow-x: hidden;
     font-family: 'Ubuntu', sans-serif;
     min-height: 100vh;
     color: white;
+    .wrap_device {
+        // ISSUE WITH OVERFLOW ON MOBILE IF I USE IT ON BODY
+        overflow-x: hidden;
+    }
 }
 
 h1 {

@@ -184,7 +184,8 @@
     }
 }
 
-// MEDIA QUERIES 
+// MEDIA QUERIES IPAD
+
 @media (max-width: 1000px) {
     
     .top__website {
@@ -332,7 +333,21 @@
         }
     }
 }
-//INTERMEDIATE 
+
+
+//INTERMEDIATE MEDIA QUERIES + MOBILE 
+
+
+@media (max-width: 550px){
+    header {
+        .wrapper__header {
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    }
+}
+
 
 @media (max-width: 400px) {
     .top__website {

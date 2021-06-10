@@ -130,6 +130,7 @@
     }
 }
 
+// MEDIA QUERIES IPAD
 
 @media (max-width: 1200px) {
     body {
@@ -246,6 +247,9 @@
     }
 }
 
+
+//MEDIA QUERIES MOBILE
+
 @media (max-width: 1000px) {
     .second__content {
         margin-top: 20rem;
@@ -319,6 +323,7 @@
     }
 }
 
+// AJUST MEDIA QUERIES FOR IPHONE 5S
 @media (max-width: 440px) {
     .third__article {
         .third__content {
